@@ -1,0 +1,377 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\b\f0\fs52\lang9 DATA STRUCTURE \par
+
+\pard\sa200\sl276\slmult1\qc\ul\fs44 Table of Content:\b0\fs24\par
+
+\pard\sa200\sl276\slmult1\ulnone\b\i\fs40 a. BASIC LEVEL: \ul\i0\fs32\par
+\ulnone      \ul i) Basics\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab  C Language Introduction\par
+{\pntext\f0 2.\tab}\tab  C Programming Language Standard\par
+{\pntext\f0 3.\tab}\tab  int (1 sign bit + 31 data bits) keyword in C\par
+{\pntext\f0 4.\tab}\tab  Is it fine to write \ldblquote void main()\rdblquote  or \ldblquote main()\rdblquote  in C/C++?\par
+{\pntext\f0 5.\tab}\tab  Difference between \ldblquote int main()\rdblquote  and \ldblquote int main(void)\rdblquote  in C/C++?\par
+{\pntext\f0 6.\tab}\tab  Macros and Preprocessors in C\par
+{\pntext\f0 7.\tab}\tab  Compiling a C program:- Behind the Scenes\par
+{\pntext\f0 8.\tab}\tab  Benefits of C over other languages\par
+{\pntext\f0 9.\tab} \tab  Program error signals\par
+{\pntext\f0 10.\tab}\tab  Escape sequences in C\par
+{\pntext\f0 11.\tab}\tab  Line Slicing in C\par
+{\pntext\f0 12.\tab}\tab  C/ C++ Tokens\par
+
+\pard\sa200\sl276\slmult1\b\fs44     \ul\fs32 ii) Functions\ulnone\b0\fs24\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab Functions in C\par
+{\pntext\f0 2.\tab}\tab Importance of function prototype in C\par
+{\pntext\f0 3.\tab}\tab Functions that are executed before and after main() in C\par
+{\pntext\f0 4.\tab}\tab return statement vs exit() in main()\par
+{\pntext\f0 5.\tab}\tab How to Count Variable Numbers of Arguments in C?,\par
+{\pntext\f0 6.\tab}\tab What is evaluation order of function parameters in C?\par
+{\pntext\f0 7.\tab}\tab Does C support function overloading?\par
+{\pntext\f0 8.\tab}\tab How can we return multiple values from a function?\par
+{\pntext\f0 9.\tab}\tab What is the purpose of a function prototype?\par
+{\pntext\f0 10.\tab}\tab Static functions in C\par
+{\pntext\f0 11.\tab}\tab exit(), abort() and assert()\par
+{\pntext\f0 12.\tab}\tab Implicit return type int in C\par
+{\pntext\f0 13.\tab}\tab What happens when a function is called before its declaration in C?\par
+{\pntext\f0 14.\tab}\tab _Noreturn function specifier in C\par
+{\pntext\f0 15.\tab}\tab exit() vs _Exit()\par
+{\pntext\f0 16.\tab}\tab __func__ identifier in C\par
+{\pntext\f0 17.\tab}\tab Callback function in C\par
+{\pntext\f0 18.\tab}\tab Nested functions in C\par
+{\pntext\f0 19.\tab}\tab Parameter Passing Techniques\par
+{\pntext\f0 20.\tab}\tab pow() function in C\par
+{\pntext\f0 21.\tab}\tab tolower() function in C\par
+
+\pard\sa200\sl276\slmult1       22.\tab\tab time() function in C\par
+\ul\b\fs32 iii) Variable Declaration, Definition and Scope:\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab Variables and Keywords in C\par
+{\pntext\f0 2.\tab}\tab How are variables scoped in C \f1\endash  Static or Dynamic?\par
+{\pntext\f0 3.\tab}\f0\lang1033\tab\f1\lang9 Scope rules in C\par
+{\pntext\f0 4.\tab}\f0\lang1033\tab\f1\lang9 How Linkers Resolve Multiply Defined Global Symbols?\par
+{\pntext\f0 5.\tab}\f0\lang1033\tab\f1\lang9 Quiz on Variable Declaration and Scope\par
+{\pntext\f0 6.\tab}\f0\lang1033\tab\f1\lang9 Complicated declarations in C\par
+{\pntext\f0 7.\tab}\f0\lang1033\tab\f1\lang9 Redeclaration of global variable in C\par
+{\pntext\f0 8.\tab}\f0\lang1033\tab\f1\lang9 Internal and External Linkage\par
+{\pntext\f0 9.\tab}\f0\lang1033\tab\f1\lang9 Declare variable as constant\par
+{\pntext\f0 10.\tab}\f0\lang1033\tab\f1\lang9 Why variables doesn\rquote t start with numbers\par
+{\pntext\f0 11.\tab}\f0\lang1033\tab\f1\lang9 Redeclaration of global variables\par
+{\pntext\f0 12.\tab}\f0\lang1033\tab\f1\lang9 Initialization of global and static variables\f0\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32\lang1033 iv) Pointers :\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab Introduction to pointers in C and C++\par
+{\pntext\f0 2.\tab}\tab Double Pointer (Pointer to Pointer) in C\par
+{\pntext\f0 3.\tab}\tab Why C treats array parameters as pointers?\par
+{\pntext\f0 4.\tab}\tab Output of the program | Dereference, Reference, Dereference, \tab Reference\par
+{\pntext\f0 5.\tab}\tab Dangling, Void , Null and Wild Pointers\par
+{\pntext\f0 6.\tab}\tab An Uncommon representation of array elements\par
+{\pntext\f0 7.\tab}\tab How to declare a pointer to a function?\par
+{\pntext\f0 8.\tab}\tab Pointer vs Array in C\par
+{\pntext\f0 9.\tab}\tab void pointer in C\par
+{\pntext\f0 10.\tab}\tab NULL pointer in C !\par
+{\pntext\f0 11.\tab}\tab Function Pointer in C\par
+{\pntext\f0 12.\tab}\tab near, far and huge pointers\par
+{\pntext\f0 13.\tab}\tab Generic Linked List in C\par
+{\pntext\f0 14.\tab}\tab restrict keyword in C\par
+{\pntext\f0 15.\tab}\tab const char *p, char * const p and const char * const p\par
+{\pntext\f0 16.\tab}\tab Pointer to an Array\lang9\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 v) Data Types\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab Data Types in C\par
+{\pntext\f0 2.\tab}\tab Use of bool in C\par
+{\pntext\f0 3.\tab}\tab Integer Promotions in C\par
+{\pntext\f0 4.\tab}\tab Quiz on Data Types in C\par
+{\pntext\f0 5.\tab}\tab Comparison of a float with a value in C\par
+{\pntext\f0 6.\tab}\tab Need of long data type in C\par
+{\pntext\f0 7.\tab}\tab size_t data type in C\par
+{\pntext\f0 8.\tab}\tab Interesting facts about data-types and modifiers\par
+{\pntext\f0 9.\tab}\tab Float and Double in C\par
+{\pntext\f0 10.\tab}\tab Character arithmetic in C\par
+{\pntext\f0 11.\tab}\tab Typecasting in C\tab\tab\tab\tab\tab\tab\tab\tab\tab\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 vi) Storage Classes:\par
+\ulnone\b0\fs24\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab Storage Classes in C\par
+{\pntext\f0 2.\tab}\tab Static Variables in C\par
+{\pntext\f0 3.\tab}\tab Understanding \ldblquote extern\rdblquote  keyword in C\par
+{\pntext\f0 4.\tab}\tab What are the default values of static variables in C?\par
+{\pntext\f0 5.\tab}\tab Understanding \ldblquote volatile\rdblquote  qualifier in C\par
+{\pntext\f0 6.\tab}\tab Const Qualifier in C\par
+{\pntext\f0 7.\tab}\tab Initialization of static variables in C\par
+{\pntext\f0 8.\tab}\tab Understanding \ldblquote register\rdblquote  keyword in C\par
+{\pntext\f0 9.\tab}\tab Quiz on Storage Classes in C\par
+{\pntext\f0 10.\tab} \tab Understanding volatile qualifier in C- Set 1\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 vii) Operators:\ulnone\b0\fs24\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab Introduction to operators in C and Arithmetic Operators\par
+{\pntext\f0 2.\tab}\tab Relational and Logical Operators in C\par
+{\pntext\f0 3.\tab}\tab Bitwise Operators in C\par
+{\pntext\f0 4.\tab}\tab Operator Precedence and Associativity in C\par
+{\pntext\f0 5.\tab}\tab Evaluation order of operands\par
+{\pntext\f0 6.\tab}\tab Comma in C and C++\par
+{\pntext\f0 7.\tab}\tab sizeof operator in C\par
+{\pntext\f0 8.\tab}\tab Operands for sizeof operator\par
+{\pntext\f0 9.\tab}\tab A comma operator question\par
+{\pntext\f0 10.\tab}\tab Result of comma operator as l-value in C and C++\par
+{\pntext\f0 11.\tab}\tab Order of operands for logical operators\par
+{\pntext\f0 12.\tab}\tab Increment (Decrement) operators require L-value Expression\par
+{\pntext\f0 13.\tab}\tab Precedence of postfix ++ and prefix ++ in C/C++\par
+{\pntext\f0 14.\tab}\tab Modulus on Negative Numbers\par
+{\pntext\f0 15.\tab}\tab C/C++ Ternary Operator \f1\endash  Some Interesting Observations\par
+{\pntext\f0 16.\tab}\f0\lang1033\tab\f1\lang9 Pre-increment (or pre-decrement) in C++\par
+{\pntext\f0 17.\tab}\f0\lang1033\tab\f1\lang9 Difference between ++*p, *p++ and *++p\par
+{\pntext\f0 18.\tab}\f0\lang1033\tab\f1\lang9 Results of comparison operations in C and C++\par
+{\pntext\f0 19.\tab}\f0\lang1033\tab\f1\lang9 To find sum of two numbers without using any operator\par
+{\pntext\f0 20.\tab}\f0\lang1033\tab\f1\lang9 Sequence Points in C\par
+{\pntext\f0 21.\tab}\f0\lang1033\tab\f1\lang9 Execution of printf with ++ operators\par
+{\pntext\f0 22.\tab}\f0\lang1033\tab\f1\lang9 Anything written in sizeof() is never executed\par
+{\pntext\f0 23.\tab}\f0\lang1033\tab\f1\lang9 Difference between strlen() and sizeof()\par
+{\pntext\f0 24.\tab}\f0\lang1033\tab\f1\lang9 Stringizing and Token-pasting operator\f0\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32\lang1033 viii) Control Statements:\ulnone\b0\fs24\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab What should be data type of case labels of switch statement in C?\par
+{\pntext\f0 2.\tab}\tab For Versus While\par
+{\pntext\f0 3.\tab}\tab A nested loop puzzle\par
+{\pntext\f0 4.\tab}\tab switch statement in C\par
+{\pntext\f0 5.\tab}\tab Difference between while(1) and while(0)\par
+{\pntext\f0 6.\tab}\tab goto statement\par
+{\pntext\f0 7.\tab}\tab Continue Statement\par
+{\pntext\f0 8.\tab}\tab Break Statement\par
+{\pntext\f0 9.\tab}\tab Using range in switch case\lang9\par
+
+\pard\sa200\sl276\slmult1\b\fs40 b. INTERMEDIATE LEVEL\par
+\ul\fs32 i) Enum, Struct and Union:\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab Enum in C\par
+{\pntext\f0 2.\tab}\tab Structures in C\par
+{\pntext\f0 3.\tab}\tab Union in C\par
+{\pntext\f0 4.\tab}\tab Struct Hack\par
+{\pntext\f0 5.\tab}\tab Structure Member Alignment, Padding and Data Packing\par
+{\pntext\f0 6.\tab}\tab Operations on struct variables in C\par
+{\pntext\f0 7.\tab}\tab Bit Fields in C\par
+{\pntext\f0 8.\tab}\tab Structure Sorting (By Multiple Rules) in C++\par
+{\pntext\f0 9.\tab}\tab Flexible array members in structure\par
+{\pntext\f0 10.\tab}\tab Difference between Structure and Union\par
+{\pntext\f0 11.\tab}\tab Difference between C structures and C++ structures\par
+{\pntext\f0 12.\tab}\tab Anonymous Union and Structure in C\par
+{\pntext\f0 13.\tab}\tab Compound Literals in C\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 ii) Storage Classes:\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab Storage Classes in C\par
+{\pntext\f0 2.\tab}\tab Static Variables in C\par
+{\pntext\f0 3.\tab}\tab Understanding \ldblquote extern\rdblquote  keyword in C\par
+{\pntext\f0 4.\tab}\tab What are the default values of static variables in C?\par
+{\pntext\f0 5.\tab}\tab Understanding \ldblquote volatile\rdblquote  qualifier in C\par
+{\pntext\f0 6.\tab}\tab Const Qualifier in C\par
+{\pntext\f0 7.\tab}\tab Initialization of static variables in C\par
+{\pntext\f0 8.\tab}\tab Understanding \ldblquote register\rdblquote  keyword in C\par
+{\pntext\f0 9.\tab}\tab Quiz on Storage Classes in C\par
+{\pntext\f0 10.\tab}\tab Understanding volatile qualifier in C- Set 1\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 iii) Memory Management:\ulnone\b0\fs24\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab Memory Layout of C Programs,\par
+{\pntext\f0 2.\tab}\tab How to deallocate memory without using free() in C?\par
+{\pntext\f0 3.\tab}\tab calloc() versus malloc()\par
+{\pntext\f0 4.\tab}\tab How does free() know the size of memory to be deallocated?\par
+{\pntext\f0 5.\tab}\tab Use of realloc()\par
+{\pntext\f0 6.\tab}\tab What is Memory Leak? How can we avoid? \par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 iv) File Handling:\ulnone\b0\fs24\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab fseek() vs rewind() in C\par
+{\pntext\f0 2.\tab}\tab EOF, getc() and feof() in C\par
+{\pntext\f0 3.\tab}\tab fopen() for an existing file in write mode\par
+{\pntext\f0 4.\tab}\tab Read/Write structure to a file\par
+{\pntext\f0 5.\tab}\tab fgets() and gets() in C\par
+{\pntext\f0 6.\tab}\tab Basics of File Handling\par
+{\pntext\f0 7.\tab}\tab fsetpos() in C\par
+{\pntext\f0 8.\tab}\tab rename function in C/C++\par
+{\pntext\f0 9.\tab}\tab tmpfile() function in C\par
+{\pntext\f0 10.\tab}\tab fgetc() and fputc() in C\par
+{\pntext\f0 11.\tab}\tab fseek() in C/C++\par
+{\pntext\f0 12.\tab}\tab ftell() in C\par
+{\pntext\f0 13.\tab}\tab lseek() in C/C++\par
+{\pntext\f0 14.\tab}\tab remove function in C/C++\par
+{\pntext\f0 15.\tab}\tab Merge contents of two files into a third file\par
+{\pntext\f0 16.\tab}\tab Print contents of file in C\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 v) Preprocessor:\ulnone\b0\fs24\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab Write a C macro PRINT(x) which prints x\par
+{\pntext\f0 2.\tab}\tab Variable length arguments for Macros\par
+{\pntext\f0 3.\tab}\tab Multiline macros in C\par
+{\pntext\f0 4.\tab}\tab CRASH() macro \f1\endash  interpretation\par
+{\pntext\f0 5.\tab}\f0\lang1033\tab\f1\lang9 The OFFSETOF() macro,\par
+{\pntext\f0 6.\tab}\f0\lang1033\tab\f1\lang9 Branch prediction macros in GCC\par
+{\pntext\f0 7.\tab}\f0\lang1033\tab\f1\lang9 Diffference between #define and const in C?\par
+{\pntext\f0 8.\tab}\f0\lang1033\tab\f1\lang9 A C Programming Language Puzzle\par
+{\pntext\f0 9.\tab}\f0\lang1033\tab\f1\lang9 What\rquote s difference between header files \ldblquote stdio.h\rdblquote  and \ldblquote stdlib.h\rdblquote  ?\par
+{\pntext\f0 10.\tab}\f0\lang1033\tab\f1\lang9 How to print a variable name in C?\par
+{\pntext\f0 11.\tab}\f0\lang1033\tab\f1\lang9 Constants in C\par
+{\pntext\f0 12.\tab}\f0\lang1033\tab\f1\lang9 How a Preprocessor works\par
+{\pntext\f0 13.\tab}\f0\lang1033\tab\f1\lang9 Preprocessor Directives : Behind the scene-1\par
+{\pntext\f0 14.\tab}\f0\lang1033\tab\f1\lang9 Preprocessor Directives : Behind the scene-2\par
+{\pntext\f0 15.\tab}\f0\lang1033\tab\f1\lang9 isgraph() library function\par
+{\pntext\f0 16.\tab}\f0\lang1033\tab\f1\lang9 write your own header file in C\par
+{\pntext\f0 17.\tab}\f0\lang1033\tab\f1\lang9 difftime() library function\par
+{\pntext\f0 18.\tab}\f0\lang1033\tab\f1\lang9 tmpnam() library function\par
+{\pntext\f0 19.\tab}\f0\lang1033\tab\f1\lang9 _Generic keyword in C\par
+{\pntext\f0 20.\tab}\f0\lang1033\tab\f1\lang9 math.h library functions\par
+{\pntext\f0 21.\tab}\f0\lang1033\tab\f1\lang9 typedef versus #define in C\par
+{\pntext\f0 22.\tab}\f0\lang1033\tab\f1\lang9 strftime() library function\par
+{\pntext\f0 23.\tab}\f0\lang1033\tab\f1\lang9 exec family of functions\f0\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 vi) Arrays & Strings:\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\ulnone\b0\fs24\tab Introduction to Arrays in C Language\par
+{\pntext\f0 2.\tab}\tab Strings in C Language\par
+{\pntext\f0 3.\tab}\tab Properties of array in C Language\par
+{\pntext\f0 4.\tab}\tab Do not use sizeof for array parameters\par
+{\pntext\f0 5.\tab}\tab Initialization of variables sized arrays in C\par
+{\pntext\f0 6.\tab}\tab Are array members deeply copied?\par
+{\pntext\f0 7.\tab}\tab What is the difference between single quoted and double quoted \tab declaration of char array?\par
+{\pntext\f0 8.\tab}\tab Initialization of a multidimensional arrays in C/C++\par
+{\pntext\f0 9.\tab}\tab Write one line functions for strcat() and strcmp()\par
+{\pntext\f0 10.\tab}\tab What\rquote s difference between char s[] and char *s in C\par
+{\pntext\f0 11.\tab}\tab gets() is risky to use!\par
+{\pntext\f0 12.\tab}\tab C function to Swap strings,\par
+{\pntext\f0 13.\tab}\tab Storage for Strings in C\par
+{\pntext\f0 14.\tab}\tab Difference between array and pointer\par
+{\pntext\f0 15.\tab}\tab How to dynamically allocate a 2D array in C?\par
+{\pntext\f0 16.\tab}\tab How to pass a 2D array as a parameter in C?\par
+{\pntext\f0 17.\tab}\tab How to write long strings in Multi-lines C/C++?\par
+{\pntext\f0 18.\tab}\tab What are the data types for which it is not possible to create an array?\par
+{\pntext\f0 19.\tab}\tab Variable Length Arrays in C and C++\par
+{\pntext\f0 20.\tab}\tab Short hand array notation\par
+{\pntext\f0 21.\tab}\tab Accessing array out of bounds\par
+{\pntext\f0 22.\tab}\tab strcpy() in C/C++\par
+{\pntext\f0 23.\tab}\tab strcmp() in C/C++\par
+{\pntext\f0 24.\tab}\tab strdup() and strdndup() in C/C++\par
+{\pntext\f0 25.\tab}\tab Pass an array by value\par
+{\pntext\f0 26.\tab}\tab Reverse a string in C/C++\par
+{\pntext\f0 27.\tab}\tab strpbrk() in C\par
+{\pntext\f0 28.\tab}\tab strcoll() in C/C++\par
+{\pntext\f0 29.\tab}\tab ispunct() in C\par
+{\pntext\f0 30.\tab}\tab strspn() in C\par
+{\pntext\f0 31.\tab}\tab isalpha() and isdigit() in C/C++\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs32 vii) Misc:\par
+\ulnone\b0\fs24\par
+
+\pard 
+{\pntext\f1 1.\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\tab Quine \f1\endash  A self-reproducing program\par
+{\pntext\f1 2.\tab}\f0\lang1033\tab\f1\lang9 Complicated declarations in C\par
+{\pntext\f1 3.\tab}\f0\lang1033\tab\f1\lang9 Use of bool in C\par
+{\pntext\f1 4.\tab}\f0\lang1033\tab\f1\lang9 Sequence Points in C | Set 1\par
+{\pntext\f1 5.\tab}\f0\lang1033\tab\f1\lang9 Optimization Techniques | Set 2 (swapping),\par
+{\pntext\f1 6.\tab}\f0\lang1033\tab\f1\lang9 ASCII NUL, ASCII 0 (\rquote 0?) and Numeric literal 0\par
+{\pntext\f1 7.\tab}\f0\lang1033\tab\f1\lang9 Little and Big Endian Mystery,\par
+{\pntext\f1 8.\tab}\f0\lang1033\tab\f1\lang9 Comparator function of qsort() in C\par
+{\pntext\f1 9.\tab}\f0\lang1033\tab\f1\lang9 Program to validate an IP address\par
+{\pntext\f1 10.\tab}\f0\lang1033\tab\f1\lang9 Multithreading in C\par
+{\pntext\f1 11.\tab}\f0\lang1033\tab\f1\lang9 Assertions in C/C++\par
+{\pntext\f1 12.\tab}\f0\lang1033\tab\f1\lang9 fork() in C\par
+{\pntext\f1 13.\tab}\f0\lang1033\tab\f1\lang9 Interesting Facts in C Programming\par
+{\pntext\f1 14.\tab}\f0\lang1033\tab\f1\lang9 Precision of floating point numbers in C++ (floor(), ceil(), trunc(), round() \f0\lang1033\tab\f1\lang9 and setprecision())\par
+{\pntext\f1 15.\tab}\f0\lang1033\tab\f1\lang9 setjump() and longjump() in C\par
+{\pntext\f1 16.\tab}\f0\lang1033\tab\f1\lang9 nextafter() and nexttoward() in C/C++\par
+{\pntext\f1 17.\tab}\f0\lang1033\tab\f1\lang9 pthread_cancel() in C\par
+{\pntext\f1 18.\tab}\f0\lang1033\tab\f1\lang9 pthread_equal() in C\par
+{\pntext\f1 19.\tab}\f0\lang1033\tab\f1\lang9 pthread_self() in C\par
+{\pntext\f1 20.\tab}\f0\lang1033\tab\f1\lang9 Local Labels in C\par
+{\pntext\f1 21.\tab}\f0\lang1033\tab\f1\lang9 lvalue and rvalue in C\par
+{\pntext\f1 22.\tab}\f0\lang1033\tab\f1\lang9 Get and set the stack size of thread attribute\par
+{\pntext\f1 23.\tab}\f0\lang1033\tab\f1\lang9 Difference between fork() and exec()\par
+{\pntext\f1 24.\tab}\f0\lang1033\tab\f1\lang9 Errors in C/C++\par
+{\pntext\f1 25.\tab}\f0\lang1033\tab\f1\lang9 Why is C considered faster than other languages\par
+{\pntext\f1 26.\tab}\f0\lang1033\tab\f1\lang9 Incompatibilities between C and C++\par
+{\pntext\f1 27.\tab}\f0\lang1033\tab\f1\lang9 Convert C/C++ code to assembly language\par
+{\pntext\f1 28.\tab}\f0\lang1033\tab\f1\lang9 Error Handling in C\par
+{\pntext\f1 29.\tab}\f0\lang1033\tab\f1\lang9 Executing main() in C/C++ : Behind the scene\par
+{\pntext\f1 30.\tab}\f0\lang1033\tab\f1\lang9 Hygienic Macros in C\par
+{\pntext\f1 31.\tab}\f0\lang1033\tab\f1\lang9 Command line arguments in C/C++\par
+{\pntext\f1 32.\tab}\f0\lang1033\tab\f1\lang9 scanf(), fscanf(), sscanf(), scanf_s(), fscanf_s(), sscanf_s()\par
+{\pntext\f1 33.\tab}\f0\lang1033\tab\f1\lang9 Some Interesting Facts in C Programming\par
+{\pntext\f1 34.\tab}\f0\lang1033\tab\f1\lang9 Database Connectivity using C/C++\par
+{\pntext\f1 35.\tab}\f0\lang1033\tab\f1\lang9 Function Interposition in C\par
+{\pntext\f1 36.\tab}\f0\lang1033\tab\f1\lang9 Macros vs Functions\par
+{\pntext\f1 37.\tab}\f0\lang1033\tab\f1\lang9 Write your own memcpy() and memmove()\f0\par
+
+\pard\sa200\sl276\slmult1\b\fs40\lang1033 c. ADVANCED LEVEL:\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\b0\fs24\tab C Program to print numbers from 1 to N without using semicolon?\par
+{\pntext\f0 2.\tab}\tab How to find sum of two numbers without using any operator\par
+{\pntext\f0 3.\tab}\tab How will you show memory representation of C variables?\par
+{\pntext\f0 4.\tab}\tab Condition To Print \ldblquote HelloWord\rdblquote\par
+{\pntext\f0 5.\tab}\tab Change/add only one character and print \lquote *\rquote  exactly 20 times\par
+{\pntext\f0 6.\tab}\tab How can we sum the digits of a given number in single statement?\par
+{\pntext\f0 7.\tab}\tab What is the best way in C to convert a number to a string?\par
+{\pntext\f0 8.\tab}\tab Calculate Logn in one line\par
+{\pntext\f0 9.\tab}\tab Print \ldblquote Even\rdblquote  or \ldblquote Odd\rdblquote  without using Conditional statement\par
+{\pntext\f0 10.\tab}\tab How will you print numbers from 1 to 100 without using loop?\par
+{\pntext\f0 11.\tab}\tab How can we sum the digits of a given number in single statement?\par
+{\pntext\f0 12.\tab}\tab How will you print \ldblquote Geeks for Geeks\rdblquote  without using a semicolon\par
+{\pntext\f0 13.\tab}\tab Write a one line C function to round floating point numbers\par
+{\pntext\f0 14.\tab}\tab How will implement Your Own sizeof\par
+{\pntext\f0 15.\tab}\tab How to count set bits in a floating point number in C?\par
+{\pntext\f0 16.\tab}\tab How to change the output of printf() in main() ?\par
+{\pntext\f0 17.\tab}\tab How to find length of a string without string.h and loop in C?\par
+{\pntext\f0 18.\tab}\tab Implement your own itoa()\par
+{\pntext\f0 19.\tab}\tab Write a C program that does not terminate when Ctrl+C is pressed\par
+{\pntext\f0 20.\tab}\tab How to measure time taken by a function in C?\par
+{\pntext\f0 21.\tab}\tab Print a long int in C using putchar() only\par
+{\pntext\f0 22.\tab}\tab Convert a floating point number to string in C\par
+{\pntext\f0 23.\tab}\tab How to write a running C code without main()?\par
+{\pntext\f0 24.\tab}\tab Write your own memcpy()\par
+{\pntext\f0 25.\tab}\tab C program to print characters without using format specifiers\par
+{\pntext\f0 26.\tab}\tab C program to print a string without any quote (singe or double) in the   \tab program\par
+{\pntext\f0 27.\tab}\tab Execute both if and else statements simultaneously\par
+{\pntext\f0 28.\tab}\tab Print \ldblquote Hello World\rdblquote  without using any header file\par
+
+\pard\sa200\sl276\slmult1\lang9\par
+\par
+}
+ 
